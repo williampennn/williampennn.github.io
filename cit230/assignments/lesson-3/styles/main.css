@@ -1,7 +1,16 @@
+<<<<<<< HEAD
 .style1right {
             margin: 0 auto;
             border: 1px solid #bbb;
             padding: 5px;
             background-color: #eee;
             line-height: 1.5em;
+=======
+.style1right {
+            margin: 0 auto;
+            border: 1px solid #bbb;
+            padding: 5px;
+            background-color: #eee;
+            line-height: 1.5em;
+>>>>>>> 6c18375a4f15a1c38ff27b1951db8b4f70e5cd88
         }
