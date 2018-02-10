@@ -1,0 +1,128 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+    box-sizing: border-box;
+
+}
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+    font-size: 16px;
+    font-family: rokkitt, monospace, serif;
+    background-color: #FEFEFE;
+    /* Declare the base font-family - from google font api or other */
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    float: left;
+}
+
+header nav,
+main,
+footer {
+    /* the comma means apply the following CSS declarations to all of the listed elements */
+    /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {}
+
+header h1 {
+    margin: -1px;
+    font-size: 40px;
+
+}
+
+header img {}
+
+header .subheading {
+    font-size: 20px;
+}
+
+
+
+
+
+nav {
+    margin-top: -1px;
+}
+
+nav button {
+    position: relative;
+    left: 0px;
+    top: 20px;
+}
+
+
+nav ul {
+    background-color: #458CDC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+nav ul li {}
+
+nav ul li a {
+    color: white;
+}
+
+nav ul li.active a {}
+
+nav ul li a:hover {}
+
+main {}
+
+main h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+main h3 {
+    font-size: 25px;
+}
+
+
+
+
+section {}
+
+section.forecast {
+    display: none;
+    text-align: center;
+    margin-top: 70px;
+
+}
+#weather-summary {display:flex;
+flex-direction: column;
+justify-content: center;
+    text-align: center;
+}
+article {text-align:center;
+margin-bottom: 30px;}
+article p.town-article img {
+    /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+    width: ???;
+    /* fill the page in the small/phone view */
+    margin: ???;
+}
+
+footer {
+    background-color: #458CDC;
+    text-align: center;
+    color: white;
+}
+
+footer aside {}
+
+footer > p {}
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+/* Other Class Selectors */
