@@ -35,7 +35,7 @@ function showHeroes(jsonObj) {
     myPara2.textContent = 'Age: ' + heroes[i].age;
     myPara3.textContent = 'Superpowers:';
         
-    var superPowers = heroes[i].powers;
+    var superPowers = heroes[i].events;
     for (var j = 0; j < superPowers.length; j++) {
       var listItem = document.createElement('li');
       listItem.textContent = superPowers[j];
@@ -46,6 +46,7 @@ function showHeroes(jsonObj) {
     myArticle.appendChild(myPara1);
     myArticle.appendChild(myPara2);
     myArticle.appendChild(myPara3);
+    myArticle.appendChild(myPara4);
     myArticle.appendChild(myList);
 
     section.appendChild(myArticle);
