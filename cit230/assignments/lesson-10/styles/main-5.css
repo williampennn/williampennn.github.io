@@ -87,25 +87,27 @@ nav ul li {}
 nav ul li a {
     color: white;
     text-decoration: none;
-    border-top: 1px solid rgba(0, 0, 0, 0.3);
+   
     
 
 }
 
 nav ul li.active a {
-    background-color: rgba(0, 0, 0, 0.2);
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: white;
 }
 
 nav ul li a:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: white;
 }
 
 nav ul.hide {
     display: none;
 }
-figure img {max-width: 100%;
-            border-style: solid;
-            border-width: 4px;}
+
 
 main {}
 
@@ -124,7 +126,7 @@ main h3 {
 section {}
 
 
-#weather-summary {
+.weather-summary {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -133,7 +135,7 @@ section {}
     border-width: thin;
     box-shadow: 5px 5px 5px gray;
 }
-#middle-img {display:none;}
+.middle-img {display:none;}
 section.forecast{display:none;}
 
 article {
@@ -178,8 +180,12 @@ footer > p {}
     #img6 {width: 300px;}
 
 
-#weather-header { background-color: white;
-                      color:#458CDC;
+.weather-header { border: solid;
+          border-radius: 20px;
+          text-align: center;
+          background-color:white ;
+          color: #458CDC;
+    
         
         
     }
@@ -212,7 +218,7 @@ form input {margin-bottom: 20px;}
     border-color: #458CDC;
     
 }
-section.franklinconditions {
+section.conditions {
     text-align: left;
     font-size: 20px;
     padding: 10px;
@@ -225,12 +231,12 @@ section.franklinconditions {
                      margin-top: 30px;
                     border: solid; 
                     border-width: thin;
-    border-color: #458CDC;
+                    border-color: #458CDC;
                     margin-bottom: 10px;
     
     
 }
-#weatherStory {background-color: white;
+#weatherStoryHeader {background-color: white;
                height: 70px;               
                text-align: justify;
                color: #458CDC;
@@ -238,7 +244,7 @@ section.franklinconditions {
                justify-content: center;
 border: solid;
 border-radius: 15px;}
-#weatherImg { height: 200px;
+#weatherStoryImg{ height: 200px;
                    width: 100%;
                    border: solid;
                   border-width: thin;
@@ -246,6 +252,19 @@ border-radius: 15px;}
                  margin-bottom: 30px;
                   
                     }
+section.mainsection {display:none;}
+#weatherStory {border: solid;
+               border-width: thin;
+               border-color: #458CDC;
+               box-shadow: 5px 5px 5px gray;}
+.header-img {           
+             width: 230px;
+              height: 150px;
+             margin-left: -40px;
+             box-shadow: 5px 5px 5px gray;
+               
+               
+              }
 
                             
     

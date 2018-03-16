@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Franklin</title>
+    <title>The Meteoroligist</title>
     <meta name="author" content="Your Name Here">
     <meta name="description" content="page description placeholder">
     <!-- external style references in the proper cascading order -->
@@ -35,8 +35,8 @@
         <button onclick="toggleNavMenu()">&#9776;</button>
         <ul id="navigation" class="hide">
             <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="franklin.html">Franklin</a></li>
-            <li><a href="greeenville.html">Greenville</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
             <li><a href="springfield.html">Springfield</a></li>
             <li><a href="stormcenter.html">Storm Center</a></li>
             <li><a href="gallery.html">Gallery</a></li>
@@ -44,31 +44,22 @@
     </nav>
 
     <main>
-        <div id="mainStoryImg">
-            <div id="mainWeatherStory">
-                <article>
-                    <div id="weatherStory">
-                        <h2>Weather Story</h2>
-                    </div>
+           
+            
+               <article id ="weatherStory">                    
+                    <h2 id = "weatherStoryHeader">Weather Story</h2>                    
                     <p>Maecenas ac massa metus. Morbi finibus felis eget mi tempus lobortis. Suspendisse vestibulum molestie lorem, sed dapibus lorem venenatis quis. Etiam fringilla ac nunc eget placerat. Proin et nulla auctor, luctus orci in, euismod mauris. Nulla id massa tellus. Mauris sollicitudin lacinia neque vel ultricies. </p>
                 </article>
-            </div>
-
-            <div><img id="weatherImg" src="images/sylwia-bartyzel-112721-unsplash.jpg" alt="story img"></div>
-        </div>
-
-        <section class="mainsection">
+                <div> <img src="images/weatherstoryimage.jpg" alt="weather story image" id = "weatherStoryImg"> </div>           
+         
+      
+        <section class="mainsection">      
             
-
             <article>
-                <img id="mainimg1" class="mainimg" src="images/andrew-neel-128377-unsplash.jpg" alt="a picture" />
-
-
-
+                <img id="mainimg1" class="mainimg" src="images/franklin.jpg" alt="franklin" />
             </article>
-
-            <article><img id="mainimg2" class="mainimg" src="images/andrew-neel-128377-unsplash.jpg" alt="a picture"></article>
-            <article><img id="mainimg3" class="mainimg" src="images/andrew-neel-128377-unsplash.jpg" alt="a picture"></article>
+            <article><img id="mainimg2" class="mainimg" src="images/greenville.jpg" alt="greenville"></article>
+            <article><img id="mainimg3" class="mainimg" src="images/springville.jpg" alt="a picture"></article>
 
         </section>
 
@@ -85,6 +76,7 @@
     <script src="scripts/currentdate.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/index.js"></script>
+    <script src="scripts/wayfinding.js"></script>
 </body>
 
 </html>

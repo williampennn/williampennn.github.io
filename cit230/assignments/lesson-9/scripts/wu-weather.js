@@ -25,7 +25,7 @@ weatherObjectForecast.onload = function()
 {
     var forecastInfo = JSON.parse(weatherObjectForecast.responseText);
     console.log(forecastInfo);
-    document.getElementById('franklinSummary').innerHTML = weatherObjectForecast.forecast.txt_forecast.forecastday.fcttext
+    document.getElementById('franklinSummary').innerHTML = forecastInfo.forecast.txt_forecast.forecastday["0"].fcttext;
     
 }
     

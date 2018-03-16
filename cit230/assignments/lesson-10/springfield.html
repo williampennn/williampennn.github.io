@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Springfield</title>
+    <meta name="author" content="Your Name Here">
+    <meta name="description" content="page description placeholder">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Rokkitt" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main-5.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium-5.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large-5.css" rel="stylesheet">
+
+
+    <!-- large/wide/desktop views -->
+</head>
+
+<body>
+
+    <header>
+        <img src="images/site-icon.png" alt="The site logo" width="100px" height="100px">
+        <h1>The Meteorologist</h1>
+        <div class="subheading">Your Personal Weather Guide</div>
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav>
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="franklin.html">Franklin</a></li>
+            <li><a href="greenville.html">Greenville</a></li>
+            <li><a href="springfield.html">Springfield</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>The City of Springfield</h2>
+
+        <!--<div id="top-left">-->
+
+        <div id = "franklin-img">
+        <figure>
+            <img src = "images/springville.jpg" class = "header-img">
+        </figure>
+        </div>
+        <div class="whole-thing">
+            <section class="weather-summary">
+               <div class = "weather-header">
+                <h3>Weather Summary</h3></div>
+                <section class ="conditions">
+                <div>Current Weather: <span id = "springfieldcurrentweather"></span> </div> <br>
+                 <div >Current Temperature: <span id="springfieldtemperature"></span> F </div> <br>
+                  <div >Current Wind Speed: <span id="springfieldwindspeed"></span> mph </div> <br>
+                   <div >Weather Conditions: <img id="springfieldweatherconditions" src="" alt="conditions"> </div> <br>
+                   <div >Weather Summary: <span id= "springfieldSummary"></span> </div> 
+                   </section>
+            </section>
+            <section class = "middle-img">
+                <img alt="fishing" width="300px" height="250px" src="images/robson-hatsukami-morgan-250757-unsplash.jpg">
+                <article id="middle-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat, nisi ut tristique mattis, enim mauris malesuada nibh, a rutrum lorem nibh id ante. Nulla euismod non magna eu tincidunt. </article>
+                
+            </section>
+
+
+            <section class="forecast">
+                <div id = "forecast-header"><h3>10 Day Forecast</h3></div>
+                <div>Day 1: 89&deg;F</div>
+                <div>Day 2: 89&deg;F</div>
+                <div>Day 3: 89&deg;F</div>
+                <div>Day 4: 89&deg;F</div>
+                <div>Day 5: 89&deg;F</div>
+                <div>Day 6: 89&deg;F</div>
+                <div>Day 7: 89&deg;F</div>
+                <div>Day 8: 89&deg;F</div>
+                <div>Day 9: 89&deg;F</div>
+                <div>Day 10: 89&deg;F</div>
+            </section>
+        </div>
+
+        <div id="article">
+            <article>
+                <h3>Springfield Breaks Record</h3>
+                <p class="town-article">
+                    <img src="images/#" alt="" width="" height=""> short article content placeholder
+                </p>
+            </article>
+        </div>
+    </main>
+    <footer>
+        <aside>
+            Contact information placeholder
+        </aside>
+        <p class="footer-bar">&copy;2017 All Rights Reserved | The Meteoroligst | <span id="currentdate"></span></p>
+
+    </footer>
+    <script src="scripts/currentdate.js"></script>
+    <script src="scripts/hamburger.js"></script>        
+    <script src="scripts/wu-weather.js"></script>
+    <script src="scripts/wayfinding.js"></script>
+</body>
+
+</html>
+
+
+
