@@ -1,4 +1,14 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 50.5em) {
+    
+    /*CSS for all pages */
+
+/*CSS for Index Page */
+
+/*CSS for City Pages */
+
+/*CSS for Storm Center Page */
+
+/*CSS for Gallery Page */
     /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
     nav button {
         display: none;
@@ -16,19 +26,15 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-content: space-around;
-        height: 40px;
-        font-size: 20px;
-        padding: 6px;
+        align-content: space-around;        
+        font-size: 15pt;
+        padding: 6px 0;
+        flex-wrap: nowrap;
 
 
 
     }
-    nav ul li a {
-        border-top: none;
-        margin-right: 6px;
-        padding: 6px;
-    }
+    
 
     main {
 
@@ -40,9 +46,11 @@
    
 
     .whole-thing {
-       display: grid;
-        grid-template-columns: 20% 30% 30% 10%;
-        grid-column-gap: 20px;  
+       display: flex;
+       flex-direction: row;
+       justify-content: space-evenly;
+       
+        
 
 
     }
@@ -89,9 +97,13 @@
     }
 
     .forecast-header {
-        background-color: #458CDC;
-        color: white;
-        text-align: center;
+         font-size: 30px;
+    text-align: center;
+    border: solid;
+          border-radius: 20px;
+          text-align: center;
+          background-color:white ;
+          color: #458CDC;
     }
     .img-container {
         display: grid;

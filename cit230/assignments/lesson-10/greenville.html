@@ -24,7 +24,7 @@
 
 <body>
 
-    <header>
+    <header class="heading">
         <img src="images/site-icon.png" alt="The site logo" width="100px" height="100px">
         <h1>The Meteorologist</h1>
         <div class="subheading">Your Personal Weather Guide</div>
@@ -48,32 +48,35 @@
 
         <!--<div id="top-left">-->
 
-        <div id = "franklin-img">
-        <figure>
-            <img src="images/greenville.jpg" alt = "greenville" class="header-img">
-        </figure>
+        <div class="franklin-img">
+            <figure>
+                <img src="images/greenville.jpg" alt="greenville" class="header-img">
+            </figure>
         </div>
-        <div class ="whole-thing">
+        <div class="whole-thing">
             <section class="weather-summary">
-               <div class = "weather-header">
-                <h3>Weather Summary</h3></div>
-                <section class ="conditions">
-                <div>Current Weather: <span id = "greenvillecurrentweather"></span> </div> <br>
-                 <div >Current Temperature: <span id="greenvilletemperature"></span> F </div> <br>
-                  <div >Current Wind Speed: <span id="greenvillewindspeed"></span> mph </div> <br>
-                   <div >Weather Conditions: <img id="greenvilleweatherconditions" src="" alt="conditions"> </div> <br>
-                   <div >Weather Summary:<br> <span id= "greenvilleSummary"></span> </div> 
-                   </section>
+                <div class="weather-header">
+                    <h3>Weather Summary</h3>
+                </div>
+                <section class="conditions">
+                    <div>Current Weather: <span id="greenvillecurrentweather"></span> </div> <br>
+                    <div>Current Temperature: <span id="greenvilletemperature"></span> F </div> <br>
+                    <div>Current Wind Speed: <span id="greenvillewindspeed"></span> mph </div> <br>
+                    <div>Weather Conditions: <img id="greenvilleweatherconditions" class="weatherconditions" src="" alt="conditions"> </div> <br>
+                    <div>Weather Summary:<br> <span id="greenvilleSummary"></span> </div>
+                </section>
             </section>
-            <section class = "middle-img">
+            <section class="middle-img">
                 <img alt="fishing" width="300px" height="250px" src="images/robson-hatsukami-morgan-250757-unsplash.jpg">
                 <article id="middle-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat, nisi ut tristique mattis, enim mauris malesuada nibh, a rutrum lorem nibh id ante. Nulla euismod non magna eu tincidunt. </article>
-                
+
             </section>
 
 
             <section class="forecast">
-                <div class = "forecast-header"><h3>10 Day Forecast</h3></div>
+                <div class="forecast-header">
+                    <h3>10 Day Forecast</h3>
+                </div>
                 <div>Day 1: 89&deg;F</div>
                 <div>Day 2: 89&deg;F</div>
                 <div>Day 3: 89&deg;F</div>
@@ -104,7 +107,7 @@
 
     </footer>
     <script src="scripts/currentdate.js"></script>
-    <script src="scripts/hamburger.js"></script>        
+    <script src="scripts/hamburger.js"></script>
     <script src="scripts/wu-weather.js"></script>
     <script src="scripts/wayfinding.js"></script>
 </body>
