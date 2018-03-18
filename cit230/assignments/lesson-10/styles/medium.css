@@ -1,0 +1,170 @@
+@media only screen and (min-width: 50.5em) {
+
+    /*CSS for all pages */
+    nav button {
+        display: none;
+    }
+    /* hamburger button does not need to be shown */
+    /* show the 10-day forecast with the medium view and up */
+    article p.town-article img {
+        width: 62.666%;
+        float: right;
+    }
+    /* responsive images */
+    nav ul.hide {
+        margin-top: 0px;
+        background-color: #458CDC;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+        font-size: 15pt;
+        padding: 6px 0;
+        flex-wrap: nowrap;
+
+
+
+    }
+
+
+    main {
+
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .forecast-header {
+        font-size: 30px;
+        text-align: center;
+        border: solid;
+        border-radius: 20px;
+        text-align: center;
+        background-color: white;
+        color: #458CDC;
+    }
+
+
+    /*CSS for Index Page */
+    .mainsection {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-column-gap: 20px;
+    }
+    .mainsection article {
+        display: block;
+    }
+
+
+
+    .mainimg {
+        height: 300px;
+        width: 100%;
+
+    }
+    #mainimg1 {
+        height: 100%;
+        margin-bottom: -8px;
+    }
+
+    #mainimg2 {
+        height: 100%;
+        margin-bottom: -8px;
+    }
+    #mainimg3 {
+        height: 100%;
+        margin-bottom: -8px;
+    }
+    #city-0 {
+        grid-area: 1 / 1;
+    }
+    #city-1 {
+        grid-area: 2 / 2;
+    }
+    #city-3 {
+        grid-area: 3 / 1;
+    }
+
+    .mainsection article h2 {
+        border: solid;
+        border-radius: 15px;
+        color: #458CDC;
+        background-color: white;
+
+    }
+    #mainWeatherStory article p {
+        text-align: left;
+    }
+    #mainStoryImg {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 20px;
+        margin-bottom: 30px;
+    }
+    #weatherStoryImg {
+        display: none;
+    }
+
+
+    #article {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    article h3 {
+        text-align: center;
+        font-size: 40px;
+    }
+    /*CSS for City Pages */
+    .whole-thing {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+
+
+
+
+    }
+    section.forecast {
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-style: solid;
+        border-width: thin;
+        box-shadow: 5px 5px 5px gray;
+        width: 200px;
+        grid-area: 1 / 3;
+    }
+    .weather-summary {
+        font-size: 20px;
+        text-align: left;
+        grid-area: 1 / 2
+    }
+
+    .header-img {
+        width: 627px;
+        margin-left: 0;
+        height: auto;
+
+    }
+
+
+
+
+
+    /*CSS for Storm Center Page */
+    /*CSS for Gallery Page */
+    .img-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 50px;
+    }
+    /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
+}

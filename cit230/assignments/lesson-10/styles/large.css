@@ -1,0 +1,132 @@
+@media only screen and (min-width: 80em) {
+
+    /*CSS for all pages */
+    main h2 {
+        margin: 50px;
+        font-size: 40px;
+    }
+    main {
+        margin-left: 150px;
+        margin-right: 150px;
+        font-size: 30px;
+
+    }
+
+    /*CSS for Index Page */
+        article {
+        font-size: 20px
+    }  
+
+    section.mainsection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 15px;
+    }
+    #mainimg {
+        height: 90%;
+        width: 100%;
+        margin: 0;
+    }
+
+    #weatherStory {
+        height: auto;
+    }
+    #mainStoryImg {
+        display: grid;
+        grid-template-columns: 60% 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 100px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+    #weatherImg {
+        margin: 0;
+    }
+
+    /*CSS for City Pages */
+    #street-pic {
+        height: 350px;
+        width: 350px;
+
+
+    }
+    .whole-thing {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-content: space-between;
+    }
+    .middle-img {
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        box-shadow: 5px 5px 5px gray;
+
+
+    }
+    section.forecast {
+        width: 210px;
+        height: 370px;
+        grid-area: 1/4;
+
+    }
+    #weather-summary {
+        font-size: 20px;
+        text-align: left;
+
+    }
+    #middle-txt {
+        font-size: 15px;
+        margin-top: 20px;
+    }
+
+    #franklin-img {
+        display: flex;
+        justify-content: center;
+    }
+
+
+    /*CSS for Storm Center Page */
+    /*CSS for Gallery Page */
+    .img-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 40px;
+        margin-bottom: -300px;
+    }
+    #img1:hover {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+    #img2:hover {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+    #img3:hover {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+    #img4:hover {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+    #img5:hover {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+    #img6:hover {
+        box-shadow: 5px 5px 5px 5px gray;
+    }
+      .gallery {
+        margin: 0;
+    }
+    /* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here */
+    
+
+  
+
+
+
+
+
+
+
+}
