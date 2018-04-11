@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mountain Spoke | Events</title>
+    <meta name="author" content="Your Name Here">
+    <meta name="description" content="page description placeholder">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Rokkitt" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">
+
+
+    <!-- large/wide/desktop views -->
+</head>
+
+<body>
+   <header>
+     <img src="images/LogoMakr_7Czu61.png" alt="Logo" class = "logo">
+     <h1>Mountain Spoke</h1>
+      
+  </header>
+    <nav>
+       <button onclick="toggleNavMenu()">Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventure.html">Adventure Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+   <main class = "main">
+      <div class ="main1"> <img src="images/eventsmain.jpg" alt="bikepic" id="mainbikepic"> </div>
+      <div id="main2"> <p>We host events all around the world. We seek thrill and adventure. Our quality and experienced employees study and find the best routes to not only push you, but provide a trip that you will never forget.
+      </p></div>
+      <div class = "events">
+         <div class = "events1">
+          <div class = "eventsImg" > <img src="images/events.jpg" alt="Events" id="eventImg"> </div>
+         
+               <div class = "eventsh3"><h3>Cycle The Continental Drift</h3></div>
+            <div class = "eventsp"> <p><strong>Dates:</strong> September 2, 2018 - September 10, 2018</p>
+            <p><strong>Route:</strong><a href="">Map</a></p> 
+              <p><strong>Costs:</strong> $45 Includes Continental Drift T-Shirt!</p>
+              <p><strong>Basic Requirements:</strong> Able to bike 50 miles, sturdy bike, and bike crew</p></div>
+      
+      </div>
+      <div> <form action="thanks.html">
+          <fieldset class ="personalinformation">
+                <legend>Sign Up Now!</legend>
+             <div> Full Name: <input type="text" name="fullname" required pattern="[A-Za-z\s]+[A-Za-z]{5,}" title="Full Name "> </div>
+              <div>Email: <input type="email" name="email" placeholder="mountainspoke@gmail.com"> </div>
+             <div> Phone Number: <input type="tel" name="telphone" required> </div>
+             <div> Date of Birth: <input type="date" name="dob" required> </div>
+             <div> Home State: <input type="Text" name="dob" required> </div>
+             <div> Home Country: <input type="Text" name="dob" required> </div>
+             <div> Additional Information or Comments: <br> <textarea name="message" rows="10" cols="25"></textarea> </div>
+            <div> <button>Start My Adventure!</button></div>
+              
+
+            </fieldset> </form>
+      </div>
+      </div>
+     
+      
+       
+   </main>
+   <footer>
+       <article>Copyright: 2018&#169; Jacob Gallegos <br> Contact info </article>
+   </footer>
+   <script src="scripts/wayfinding.js"></script>
+    <script src="scripts/navbutton.js"></script>
+</body>
+</html>

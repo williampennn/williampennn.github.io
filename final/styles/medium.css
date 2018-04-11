@@ -1,0 +1,202 @@
+@media only screen and (min-width: 50.5em) {
+    
+    #mainbikepic {
+    height: 100%;
+    width: 100%;
+    
+}
+    .main1{
+        height: 300px;
+        overflow: hidden;
+    }
+    
+     nav ul.hide {
+        margin-top: 0px;
+        background-color: #0A1612;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: space-around;
+        font-size: 15pt;
+        padding: 6px 0;
+        flex-wrap: nowrap;}
+    
+     nav button {
+        display: none;
+    }
+    p {
+        text-align: center;
+
+    }
+    #maincontent {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 30px
+    }
+    
+    
+    #main2{ width: 50%;
+        margin: auto;
+        
+        
+    }
+    #main3 {width: 45%;
+            height: 0%;}
+    #main4 {width: 45%;
+            overflow: hidden;}
+    /*Adventure Page */
+    .adventureDescription{
+        display: block;
+        width: 190px;
+        grid-area: 1/ 2;
+        margin-top: 90px;
+        margin-left: 90px
+        
+    } 
+   
+
+    .cycleCanyon1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 20px;
+        height: 250px;
+        overflow: hidden;
+        
+        
+    }
+    .header {
+        grid-area: 1/2
+    }
+    .cycleCanyon h2 {
+        margin-top: 0;
+    }
+    .bearGulch {
+        border: solid;
+        border-color: #f7ce3e;
+        margin-bottom: 20px;
+    }
+    .cycleCanyon {
+        border: solid;
+        border-color: #f7ce3e;
+        margin-bottom: 10px;
+    }
+    footer {margin-top: 0;}
+    .briefDescription {
+        margin-bottom: 20px;
+    }
+    a {color:#f7ce3e; }
+    /*Events */
+.events1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.eventsp {
+    grid-area: 1 /2;
+    margin-top: 70px;
+}
+.eventsh3 {
+    grid-area: 1/2
+}
+    /*sales*/
+    .sales {
+        display:flex;
+        justify-content: center;
+    }
+    .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 700px;
+}
+.slider-wrapper { width: 450px;
+height: 400px;
+margin: 30px;
+overflow: hidden;}
+
+.inner-wrapper {
+    width: 500%;
+    height:100%;
+    position: relative;
+    left: -100%;
+}
+    .slide p{
+        font-size: 20px;
+    }
+    .bikes{
+        height: 300px;
+        width: 500px;
+    }
+    
+    /* Service */
+    table {           
+        font-size: 30px;
+        border: none;
+    }
+    /*Contact*/
+    iframe {
+        width: 300px;
+    }
+    .contactMain {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .contact {
+        grid-area: 1 /1;
+        
+    }
+    .contactInformation {
+        display: flex;        
+        justify-content: center;
+    }
+    .map {
+        grid-area: 2/1;
+        margin-left: 30px;
+    }
+    .form {
+        grid-area:  1 / col4-start / last-line / 6;
+        
+    }
+    .contactinfo {
+        height: 100%;
+        margin-top: 30px;
+        margin-right: 30px
+    }
+    
+    
+    
+    
+
+
+    
+    }
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

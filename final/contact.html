@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mountain Spoke | Contact</title>
+    <meta name="author" content="Your Name Here">
+    <meta name="description" content="page description placeholder">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Rokkitt" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="styles/normalize.css" rel="stylesheet">
+    <!-- normalize useragent/browser defaults -->
+    <link href="styles/main.css" rel="stylesheet">
+    <!-- default styles - small/phone views -->
+    <link href="styles/medium.css" rel="stylesheet">
+    <!-- medium/tablet views -->
+    <link href="styles/large.css" rel="stylesheet">
+
+
+    <!-- large/wide/desktop views -->
+</head>
+
+<body>
+   <header>
+     <img src="images/LogoMakr_7Czu61.png" alt="Logo" class = "logo">
+     <h1>Mountain Spoke</h1>
+      
+  </header>
+    <nav>
+       <button onclick="toggleNavMenu()">Menu</button>
+        <ul id="navigation" class="hide">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="adventure.html">Adventure Tours</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="sales.html">Sales</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+   <main class = "main">
+      <div class="main1"> <img src="images/contact.jpg" alt="bikepic" id="mainbikepic"> </div>
+      <div id="main2"> <p>Mountain spokes has been providing Montana with quality bikes since 2007. Our commitment is to provide quality service, and set you up with the right bike
+      </p></div><div class = "contactMain">
+      <div class = "contactInformation">
+         <div class = "contact"> <img src="images/location.jpg" alt="Location" class="icons"> <div>3950 Valley Commons Drive <br> Bozeman, Montana <br>59715 </div></div>
+         <div class = "contact"> <img src="images/phone.jpg" alt="Phone" class="icons"> <div>1.800.555.4556</div></div>
+         <div class = "contact"><img src="images/email.jpg" alt="Email" class="icons"> <div>mountainspokes11@mountainspokes.com</div></div> 
+          
+      </div>
+      <div class = "map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.9316277662115!2d-111.0929115483333!3d45.672272879001405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345459ab72cb6df%3A0xbb98968f9648ea88!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1523412846262" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
+      <div class = "form">
+          <form action="thanks.html">
+               <fieldset class ="personalinformation contactinfo">
+                <legend>Contact Us</legend>
+             <div> Full Name: <input type="text" name="fullname" required pattern="[A-Za-z\s]+[A-Za-z]{5,}" title="Full Name "> </div>
+            <div>Email: <input type="email" name="email" placeholder="mountainspoke@gmail.com"> </div>
+            <div> Phone Number: <input type="tel" name="telphone" required> </div>
+            <div>  Comments: <br> <textarea name="message" rows="10" cols="25"></textarea> </div>
+            <div> <button>Submit</button></div>
+              
+
+            </fieldset>
+              
+              
+              
+          </form>
+      </div>
+       </div>
+   </main>
+   <footer>
+       <article>Copyright: 2018&#169; Jacob Gallegos <br> 3950 Valley Commons Drive Bozeman, MT <br> 1.800.555.4556 <br> mountainspokes11@mountainspokes.com
+       <br> Logo Credit: <a href="http://logomakr.com" title="Logo Makr">LogoMakr.com</a> https://logomakr.com/7Czu61 </article>
+   </footer>
+    <script src="scripts/navbutton.js"></script>
+    <script src="scripts/wayfinding.js"></script>
+</body>
+</html>

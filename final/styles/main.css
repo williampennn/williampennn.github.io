@@ -1,0 +1,306 @@
+h1 h2 h3 { font-family: 'Ubuntu', sans-serif;
+    
+}
+p {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+header {
+    display:flex;
+    background-color: #0A1612;
+    color: #f7ce3e;
+    
+    
+}
+.logo{
+    height: 80px;
+    margin-right: 30px;
+}
+
+/*Navigation*/
+nav {
+    margin-top: 0px;
+    background-color: #0A1612;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+nav button {
+
+    color:#f7ce3e ;
+    border: none;
+    font-size: 1.6em;
+    background-color: transparent;
+    
+    
+
+}
+nav ul {
+    background-color: #0A1612;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style-type: none;
+    font-size: 30px;
+    margin: 3px;
+
+}
+
+nav ul li a {
+    color: #f7ce3e;
+    text-decoration: none;
+
+
+
+}
+a:link{
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #f7ce3e;
+}
+
+nav ul li a:hover {
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #f7ce3e;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+/* Main */
+#mainbikepic {
+    height: 100%;
+    width: 100%;
+    
+}
+#bikeadventure{
+    height: 100%;
+    width: 100%;
+    
+}
+#bikesale{
+    height: 50%;
+    width: 100%;
+}
+.main {display:flex;
+      flex-direction: column;
+      align-items: space-between;
+     background-color: #1a2930;
+    flex-wrap: nowrap;
+    
+}
+
+p{ text-align: center;
+    font-size: 15px;
+    color: #C5C1C0;
+    
+}
+
+.mainlinks {
+    font-size: 30px;
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0A1612;
+    color: #f7ce3e;
+ 
+}
+#mottodiv {
+    display: none;
+}
+
+
+footer {
+    background-color: #0A1612;
+    color: #f7ce3e;
+    text-align: center;
+    font-size: 10px;
+    padding-top: 20px;
+    height: auto;
+    padding-bottom: 20px;
+    
+    
+}
+
+/* Adventure Page */
+.adventurePage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+.adventurePage h2 {
+    text-align: center;
+    font-size: 30px;
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0A1612;
+    color: #f7ce3e;
+    margin-bottom: 5px;
+}
+.adventurePage h3 {
+    text-align: center;
+    color: #C5C1C0;
+}
+.briefDescription {
+    display: flex;
+    justify-content: space-between;
+    color: #C5C1C0;
+    
+}
+.adventureDescription {display: none;}
+
+/*Events */
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.events1{
+    display: flex;
+    flex-direction: column;
+}
+.events h3 {border: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0A1612;
+    color: #f7ce3e;
+    font-size: 20px;
+    
+}
+.events p {text-align: left;}
+.personalinformation {
+    border-color: #f7ce3e;
+    color:  #C5C1C0;
+    margin-bottom: 30px;
+    display: flex;
+    
+}
+.personalinformation legend {
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0A1612;
+    color: #f7ce3e;
+    font-size: 20px;
+}
+#eventImg {
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+    
+}
+/* Sales */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.slider-wrapper { width: 350px;
+height: 300px;
+margin: 30px;
+overflow: hidden;}
+
+.inner-wrapper {
+    width: 500%;
+    height:100%;
+    position: relative;
+    left: -100%;
+}
+.slide{
+    width: calc(100% / 5);
+    height: 100%;
+    float: left;
+    
+}
+.button {width: 30px;
+height: 30px;
+border-top: 2px solid #f7ce3e;
+    border-bottom: none;
+    
+position: absolute;
+background: transparent;}
+
+.prev {border-left: 2px solid #f7ce3e;
+    border-right: none;
+       left: 6%;
+      
+    transform: rotate(-45deg);
+}
+.next {
+    border-right: 2px solid #f7ce3e;
+    border-left: none;
+    right: 6%;
+      
+    transform: rotate(45deg);
+}
+.bikes {
+    height: 200px;
+   
+}
+/*service*/
+table {
+    border:  2px solid #f7ce3e;
+    display:flex;
+    justify-content: center;
+    color: #C5C1C0;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+}
+th {
+    
+    border: solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #0A1612;
+    color: #f7ce3e;
+    font-size: 20px;
+    
+}
+td {
+    border-bottom: 2px solid #f7ce3e;
+    margin: 10px;
+}
+/*Contact*/
+.icons {
+    height: 40px;
+width: 40px;
+}
+.contactInformation {
+    display: flex;
+    flex-direction: column;
+    color: #C5C1C0;
+    font-size: 13px
+}
+.contactInformation div {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.contact{
+    display: flex;
+    
+}
+iframe {
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px
+    
+}
+
+
+
+
+
+
